@@ -2101,6 +2101,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lib-hello@workspace:packages/lib-hello":
+  version: 0.0.0-use.local
+  resolution: "lib-hello@workspace:packages/lib-hello"
+  dependencies:
+    "@thbx/eslint-config-typescript": ^1.0.0
+    "@thbx/prettier-config": ^2.0.0
+    "@thbx/tsconfig": ^1.0.0
+    "@trivago/prettier-plugin-sort-imports": ^2.0.4
+    "@typescript-eslint/eslint-plugin": ^5.2.0
+    "@typescript-eslint/parser": ^5.2.0
+    eslint: ^7.32.0
+    prettier: ^2.4.1
+    typescript: ^4.4.4
+  languageName: unknown
+  linkType: soft
+
 "locate-path@npm:^2.0.0":
   version: 2.0.0
   resolution: "locate-path@npm:2.0.0"
@@ -2492,6 +2508,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.2.0
     "@typescript-eslint/parser": ^5.2.0
     eslint: ^7.32.0
+    lib-hello: "workspace:packages/lib-hello"
     prettier: ^2.4.1
     typescript: ^4.4.4
   languageName: unknown

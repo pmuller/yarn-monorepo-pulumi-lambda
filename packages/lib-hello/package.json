@@ -1,11 +1,17 @@
 {
-  "name": "pulumi",
+  "name": "lib-hello",
   "private": true,
   "prettier": "@thbx/prettier-config",
-  "dependencies": {
-    "@pulumi/aws": "^4.25.0",
-    "@pulumi/pulumi": "^3.16.0",
-    "lib-hello": "workspace:packages/lib-hello"
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "index.d.ts": [
+        "dist/index.d.ts"
+      ]
+    }
   },
   "devDependencies": {
     "@thbx/eslint-config-typescript": "^1.0.0",
@@ -20,5 +26,8 @@
   },
   "installConfig": {
     "hoistingLimits": "workspaces"
+  },
+  "scripts": {
+    "build": "tsc --build"
   }
 }
