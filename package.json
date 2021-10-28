@@ -1,0 +1,4 @@
+{
+  "name": "yarn-monorepo-pulumi-lambda",
+  "packageManager": "yarn@3.1.0"
+}
