@@ -2479,9 +2479,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pulumi@workspace:pulumi":
+"pulumi@workspace:packages/pulumi":
   version: 0.0.0-use.local
-  resolution: "pulumi@workspace:pulumi"
+  resolution: "pulumi@workspace:packages/pulumi"
   dependencies:
     "@pulumi/aws": ^4.25.0
     "@pulumi/pulumi": ^3.16.0

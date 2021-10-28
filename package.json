@@ -11,6 +11,6 @@
     "typescript": "^4.4.4"
   },
   "workspaces": [
-    "pulumi"
+    "packages/*"
   ]
 }
