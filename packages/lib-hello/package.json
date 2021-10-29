@@ -16,7 +16,6 @@
   "devDependencies": {
     "@thbx/eslint-config-typescript": "^1.0.0",
     "@thbx/prettier-config": "^2.0.0",
-    "@thbx/tsconfig": "^1.0.0",
     "@trivago/prettier-plugin-sort-imports": "^2.0.4",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
