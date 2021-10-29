@@ -2,10 +2,12 @@
   "name": "pulumi",
   "private": true,
   "prettier": "@thbx/prettier-config",
+  "scripts": {
+    "deploy": "yarn build --ignore-cache ../function-hello-webpack && pulumi up"
+  },
   "dependencies": {
     "@pulumi/aws": "^4.25.0",
-    "@pulumi/pulumi": "^3.16.0",
-    "lib-hello": "workspace:packages/lib-hello"
+    "@pulumi/pulumi": "^3.16.0"
   },
   "devDependencies": {
     "@thbx/eslint-config-typescript": "^1.0.0",

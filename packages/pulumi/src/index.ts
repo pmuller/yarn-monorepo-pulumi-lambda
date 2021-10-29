@@ -1,10 +1,8 @@
 import { lambda } from "@pulumi/aws";
 
-import { hello, libhello } from "./functions";
+import { createWebpackHelloFunction, hello } from "./functions";
 
 export const helloFunction = new lambda.CallbackFunction("hello", {
   callback: hello,
 });
-export const libhelloFunction = new lambda.CallbackFunction("libhello", {
-  callback: libhello,
-});
+export const webpackHelloFunction = createWebpackHelloFunction();
