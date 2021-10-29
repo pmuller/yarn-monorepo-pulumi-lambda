@@ -12,5 +12,8 @@ export const createWebpackHelloFunction = () => {
     code: new asset.FileArchive("../function-hello-webpack/dist"),
     handler: "index.handler",
     role: role.arn,
+    environment: {
+      variables: { NODE_OPTIONS: "--enable-source-maps" },
+    },
   });
 };
