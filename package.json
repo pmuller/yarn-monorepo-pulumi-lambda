@@ -15,8 +15,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "resolutions": {
-    "@pulumi/pulumi@^3.16.0": "patch:@pulumi/pulumi@npm:3.16.0#.yarn/patches/@pulumi-pulumi-npm-3.16.0-04e0c2e5aa"
-  }
+  ]
 }
