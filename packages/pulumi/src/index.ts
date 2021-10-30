@@ -7,6 +7,7 @@ export const inlineHelloFunction = new lambda.CallbackFunction("hello-inline", {
   name: "hello-inline",
   callback: hello,
   runtime: lambda.Runtime.NodeJS14dX,
+  architectures: ["arm64"],
 });
 export const webpackHelloFunction =
   deployPackagedLambdaFunction("hello-webpack");

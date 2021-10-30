@@ -13,6 +13,7 @@ export const deployPackagedLambdaFunction = (name: string): lambda.Function => {
     code: new asset.FileArchive(`../function-${name}/dist`),
     handler: "index.handler",
     role: role.arn,
+    architectures: ["arm64"],
     environment: {
       variables: { NODE_OPTIONS: "--enable-source-maps" },
     },
