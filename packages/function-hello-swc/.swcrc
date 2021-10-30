@@ -1,0 +1,18 @@
+{
+  "jsc": {
+    "externalHelpers": true,
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "es2020",
+    "minify": {
+      "compress": { "defaults": true, "ecma": 2020 },
+      "mangle": true
+    }
+  },
+  "module": {
+    "type": "commonjs",
+    "strictMode": false
+  },
+  "minify": true
+}

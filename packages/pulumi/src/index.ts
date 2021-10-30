@@ -15,3 +15,5 @@ export const webpackEsbuildHelloFunction = deployPackagedLambdaFunction(
 );
 export const esbuildHelloFunction =
   deployPackagedLambdaFunction("hello-esbuild");
+
+export const swcHelloFunction = deployPackagedLambdaFunction("hello-swc");

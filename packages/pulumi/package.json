@@ -17,6 +17,7 @@
     "@typescript-eslint/parser": "^5.2.0",
     "eslint": "^7.32.0",
     "function-hello-esbuild": "workspace:^",
+    "function-hello-swc": "workspace:^",
     "function-hello-webpack": "workspace:^",
     "function-hello-webpack-esbuild": "workspace:^",
     "prettier": "^2.4.1",
