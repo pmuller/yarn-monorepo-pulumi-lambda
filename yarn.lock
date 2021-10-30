@@ -1210,6 +1210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: b89b6e8419b097a8fb4ed2399a1931a68c612bce3cfd5ca8c214b2d017531191070f990598de2fc6f3f993d91c0f08aa82697717f6b3b8732c9731866d233c9e
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1523,6 +1530,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: ddaaa02542e1e9436c03970eeed445f4ed29a5337dfba0fe0c38dfdd2af5da2429c2a0821304e8a8d1cadf27fdd5b22ff793571fa803ae16852a6975c65e8e70
+  languageName: node
+  linkType: hard
+
 "enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.8.3":
   version: 5.8.3
   resolution: "enhanced-resolve@npm:5.8.3"
@@ -1594,6 +1608,204 @@ __metadata:
     is-date-object: ^1.0.1
     is-symbol: ^1.0.2
   checksum: 4ead6671a2c1402619bdd77f3503991232ca15e17e46222b0a41a5d81aebc8740a77822f5b3c965008e631153e9ef0580540007744521e72de8e33599fca2eed
+  languageName: node
+  linkType: hard
+
+"esbuild-android-arm64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-android-arm64@npm:0.13.11"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-darwin-64@npm:0.13.11"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-arm64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-darwin-arm64@npm:0.13.11"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-freebsd-64@npm:0.13.11"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-arm64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-freebsd-arm64@npm:0.13.11"
+  conditions: os=freebsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-32@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-32@npm:0.13.11"
+  conditions: os=linux & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-64@npm:0.13.11"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-arm64@npm:0.13.11"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-arm@npm:0.13.11"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-mips64le@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-mips64le@npm:0.13.11"
+  conditions: os=linux & cpu=mips64el
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-ppc64le@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-linux-ppc64le@npm:0.13.11"
+  conditions: os=linux & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"esbuild-loader@npm:^2.16.0":
+  version: 2.16.0
+  resolution: "esbuild-loader@npm:2.16.0"
+  dependencies:
+    esbuild: ^0.13.4
+    joycon: ^3.0.1
+    json5: ^2.2.0
+    loader-utils: ^2.0.0
+    tapable: ^2.2.0
+    type-fest: ^1.4.0
+    webpack-sources: ^2.2.0
+  peerDependencies:
+    webpack: ^4.40.0 || ^5.0.0
+  checksum: ea520aac0ff5085e3f31a1c2db0ff851555fe6001b3a11c51de199387563ea4209fb6ebfbb32c303d9085ddc5cdc14459cd1518673d081e58aca0a2296167800
+  languageName: node
+  linkType: hard
+
+"esbuild-netbsd-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-netbsd-64@npm:0.13.11"
+  conditions: os=netbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-openbsd-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-openbsd-64@npm:0.13.11"
+  conditions: os=openbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-sunos-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-sunos-64@npm:0.13.11"
+  conditions: os=sunos & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-32@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-windows-32@npm:0.13.11"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-windows-64@npm:0.13.11"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-arm64@npm:0.13.11":
+  version: 0.13.11
+  resolution: "esbuild-windows-arm64@npm:0.13.11"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"esbuild@npm:^0.13.4":
+  version: 0.13.11
+  resolution: "esbuild@npm:0.13.11"
+  dependencies:
+    esbuild-android-arm64: 0.13.11
+    esbuild-darwin-64: 0.13.11
+    esbuild-darwin-arm64: 0.13.11
+    esbuild-freebsd-64: 0.13.11
+    esbuild-freebsd-arm64: 0.13.11
+    esbuild-linux-32: 0.13.11
+    esbuild-linux-64: 0.13.11
+    esbuild-linux-arm: 0.13.11
+    esbuild-linux-arm64: 0.13.11
+    esbuild-linux-mips64le: 0.13.11
+    esbuild-linux-ppc64le: 0.13.11
+    esbuild-netbsd-64: 0.13.11
+    esbuild-openbsd-64: 0.13.11
+    esbuild-sunos-64: 0.13.11
+    esbuild-windows-32: 0.13.11
+    esbuild-windows-64: 0.13.11
+    esbuild-windows-arm64: 0.13.11
+  dependenciesMeta:
+    esbuild-android-arm64:
+      optional: true
+    esbuild-darwin-64:
+      optional: true
+    esbuild-darwin-arm64:
+      optional: true
+    esbuild-freebsd-64:
+      optional: true
+    esbuild-freebsd-arm64:
+      optional: true
+    esbuild-linux-32:
+      optional: true
+    esbuild-linux-64:
+      optional: true
+    esbuild-linux-arm:
+      optional: true
+    esbuild-linux-arm64:
+      optional: true
+    esbuild-linux-mips64le:
+      optional: true
+    esbuild-linux-ppc64le:
+      optional: true
+    esbuild-netbsd-64:
+      optional: true
+    esbuild-openbsd-64:
+      optional: true
+    esbuild-sunos-64:
+      optional: true
+    esbuild-windows-32:
+      optional: true
+    esbuild-windows-64:
+      optional: true
+    esbuild-windows-arm64:
+      optional: true
+  bin:
+    esbuild: bin/esbuild
+  checksum: bbcc148c53ca2ce1c515b485dd235676409a0d16125d40a36abeaa88075aba82f4261dc0e5cd87b6f15f6a4116d20f7e698800fa18fef0bc3bf119c824354719
   languageName: node
   linkType: hard
 
@@ -1980,6 +2192,27 @@ __metadata:
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
   languageName: node
   linkType: hard
+
+"function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild":
+  version: 0.0.0-use.local
+  resolution: "function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild"
+  dependencies:
+    "@pulumi/aws": ^4.25.0
+    "@thbx/eslint-config-typescript": ^1.0.0
+    "@thbx/prettier-config": ^2.0.0
+    "@trivago/prettier-plugin-sort-imports": ^2.0.4
+    "@types/node": ^16.11.6
+    "@typescript-eslint/eslint-plugin": ^5.2.0
+    "@typescript-eslint/parser": ^5.2.0
+    esbuild-loader: ^2.16.0
+    eslint: ^7.32.0
+    lib-hello: "workspace:packages/lib-hello"
+    prettier: ^2.4.1
+    typescript: ^4.4.4
+    webpack: ^5.60.0
+    webpack-cli: ^4.9.1
+  languageName: unknown
+  linkType: soft
 
 "function-hello-webpack@workspace:packages/function-hello-webpack":
   version: 0.0.0-use.local
@@ -2466,6 +2699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"joycon@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "joycon@npm:3.0.1"
+  checksum: 1fb67a921e468e1c8f665fe6cf6758194edd19a41fcdb05b2e2a480ddf1ab6418042b9e989b4057fce46e4eddf4c284972c19aef791cda501410bf4dc4ec2b71
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -2540,7 +2780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2":
+"json5@npm:^2.1.2, json5@npm:^2.2.0":
   version: 2.2.0
   resolution: "json5@npm:2.2.0"
   dependencies:
@@ -2587,6 +2827,17 @@ __metadata:
   version: 4.2.0
   resolution: "loader-runner@npm:4.2.0"
   checksum: e61aea8b6904b8af53d9de6f0484da86c462c0001f4511bedc837cec63deb9475cea813db62f702cd7930420ccb0e75c78112270ca5c8b61b374294f53c0cb3a
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "loader-utils@npm:2.0.1"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^2.1.2
+  checksum: 8f204319618e9624e25b311237d51b98109bb6093f904ffe1017097eed29654db3883c741f15d7916e17709d9cc6ebc217e678a234b42bbe37172e8eaa073f67
   languageName: node
   linkType: hard
 
@@ -3402,6 +3653,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"source-list-map@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "source-list-map@npm:2.0.1"
+  checksum: 806efc6f75e7cd31e4815e7a3aaf75a45c704871ea4075cb2eb49882c6fca28998f44fc5ac91adb6de03b2882ee6fb02f951fdc85e6a22b338c32bfe19557938
+  languageName: node
+  linkType: hard
+
 "source-map-support@npm:^0.4.16":
   version: 0.4.18
   resolution: "source-map-support@npm:0.4.18"
@@ -3730,6 +3988,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "type-fest@npm:1.4.0"
+  checksum: b011c3388665b097ae6a109a437a04d6f61d81b7357f74cbcb02246f2f5bd72b888ae33631b99871388122ba0a87f4ff1c94078e7119ff22c70e52c0ff828201
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^4.4.4":
   version: 4.4.4
   resolution: "typescript@npm:4.4.4"
@@ -3893,6 +4158,16 @@ __metadata:
     clone-deep: ^4.0.1
     wildcard: ^2.0.0
   checksum: 88786ab91013f1bd2a683834ff381be81c245a4b0f63304a5103e90f6653f44dab496a0768287f8531761f8ad957d1f9f3ccb2cb55df0de1bd9ee343e079da26
+  languageName: node
+  linkType: hard
+
+"webpack-sources@npm:^2.2.0":
+  version: 2.3.1
+  resolution: "webpack-sources@npm:2.3.1"
+  dependencies:
+    source-list-map: ^2.0.1
+    source-map: ^0.6.1
+  checksum: 6fd67f2274a84c5f51ad89767112ec8b47727134bf0f2ba0cff458c970f18966939a24128bdbddba621cd66eeb2bef0552642a9333cd8e54514f7b2a71776346
   languageName: node
   linkType: hard
 
