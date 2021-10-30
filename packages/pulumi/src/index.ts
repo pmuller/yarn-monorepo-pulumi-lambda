@@ -4,6 +4,7 @@ import { hello } from "./functions";
 import { deployPackagedLambdaFunction } from "./helpers";
 
 export const inlineHelloFunction = new lambda.CallbackFunction("hello-inline", {
+  name: "hello-inline",
   callback: hello,
   runtime: lambda.Runtime.NodeJS14dX,
 });

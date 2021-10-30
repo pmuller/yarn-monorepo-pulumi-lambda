@@ -8,6 +8,7 @@ export const deployPackagedLambdaFunction = (name: string): lambda.Function => {
     }),
   });
   return new lambda.Function(name, {
+    name,
     runtime: lambda.Runtime.NodeJS14dX,
     code: new asset.FileArchive(`../function-${name}/dist`),
     handler: "index.handler",
