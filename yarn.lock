@@ -1747,7 +1747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.13.4":
+"esbuild@npm:^0.13.11, esbuild@npm:^0.13.4":
   version: 0.13.11
   resolution: "esbuild@npm:0.13.11"
   dependencies:
@@ -2192,6 +2192,25 @@ __metadata:
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
   languageName: node
   linkType: hard
+
+"function-hello-esbuild@workspace:packages/function-hello-esbuild":
+  version: 0.0.0-use.local
+  resolution: "function-hello-esbuild@workspace:packages/function-hello-esbuild"
+  dependencies:
+    "@pulumi/aws": ^4.25.0
+    "@thbx/eslint-config-typescript": ^1.0.0
+    "@thbx/prettier-config": ^2.0.0
+    "@trivago/prettier-plugin-sort-imports": ^2.0.4
+    "@types/node": ^16.11.6
+    "@typescript-eslint/eslint-plugin": ^5.2.0
+    "@typescript-eslint/parser": ^5.2.0
+    esbuild: ^0.13.11
+    eslint: ^7.32.0
+    lib-hello: "workspace:packages/lib-hello"
+    prettier: ^2.4.1
+    typescript: ^4.4.4
+  languageName: unknown
+  linkType: soft
 
 "function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild":
   version: 0.0.0-use.local
