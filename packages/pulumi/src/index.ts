@@ -1,8 +1,16 @@
 import { lambda } from "@pulumi/aws";
 
-import { createWebpackHelloFunction, hello } from "./functions";
+import { hello } from "./functions";
+import { deployPackagedLambdaFunction } from "./helpers";
 
-export const helloFunction = new lambda.CallbackFunction("hello", {
+export const inlineHelloFunction = new lambda.CallbackFunction("hello-inline", {
   callback: hello,
+  runtime: lambda.Runtime.NodeJS14dX,
 });
-export const webpackHelloFunction = createWebpackHelloFunction();
+export const webpackHelloFunction =
+  deployPackagedLambdaFunction("hello-webpack");
+export const webpackEsbuildHelloFunction = deployPackagedLambdaFunction(
+  "hello-webpack-esbuild"
+);
+export const esbuildHelloFunction =
+  deployPackagedLambdaFunction("hello-esbuild");

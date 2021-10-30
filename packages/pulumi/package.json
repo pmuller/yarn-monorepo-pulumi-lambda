@@ -3,7 +3,7 @@
   "private": true,
   "prettier": "@thbx/prettier-config",
   "scripts": {
-    "deploy": "yarn build --ignore-cache ../function-hello-webpack && pulumi up"
+    "deploy": "yarn build --ignore-cache && pulumi up"
   },
   "dependencies": {
     "@pulumi/aws": "^4.25.0",
@@ -16,6 +16,9 @@
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "eslint": "^7.32.0",
+    "function-hello-esbuild": "workspace:^",
+    "function-hello-webpack": "workspace:^",
+    "function-hello-webpack-esbuild": "workspace:^",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
   },

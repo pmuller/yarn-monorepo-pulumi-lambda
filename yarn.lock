@@ -2193,7 +2193,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"function-hello-esbuild@workspace:packages/function-hello-esbuild":
+"function-hello-esbuild@workspace:^, function-hello-esbuild@workspace:packages/function-hello-esbuild":
   version: 0.0.0-use.local
   resolution: "function-hello-esbuild@workspace:packages/function-hello-esbuild"
   dependencies:
@@ -2212,7 +2212,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild":
+"function-hello-webpack-esbuild@workspace:^, function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild":
   version: 0.0.0-use.local
   resolution: "function-hello-webpack-esbuild@workspace:packages/function-hello-webpack-esbuild"
   dependencies:
@@ -2233,7 +2233,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"function-hello-webpack@workspace:packages/function-hello-webpack":
+"function-hello-webpack@workspace:^, function-hello-webpack@workspace:packages/function-hello-webpack":
   version: 0.0.0-use.local
   resolution: "function-hello-webpack@workspace:packages/function-hello-webpack"
   dependencies:
@@ -3364,6 +3364,9 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.2.0
     "@typescript-eslint/parser": ^5.2.0
     eslint: ^7.32.0
+    function-hello-esbuild: "workspace:^"
+    function-hello-webpack: "workspace:^"
+    function-hello-webpack-esbuild: "workspace:^"
     prettier: ^2.4.1
     typescript: ^4.4.4
   languageName: unknown
