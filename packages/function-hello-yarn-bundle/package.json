@@ -1,0 +1,34 @@
+{
+  "name": "function-hello-yarn-bundle",
+  "private": true,
+  "prettier": "@thbx/prettier-config",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "index.d.ts": [
+        "dist/index.d.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "lib-hello": "workspace:packages/lib-hello"
+  },
+  "devDependencies": {
+    "@pulumi/aws": "^4.25.0",
+    "@thbx/eslint-config-typescript": "^1.0.0",
+    "@thbx/prettier-config": "^2.0.0",
+    "@trivago/prettier-plugin-sort-imports": "^2.0.4",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  }
+}
