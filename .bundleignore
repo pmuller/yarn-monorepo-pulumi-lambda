@@ -1,5 +1,18 @@
-/README.md
-/tsconfig.*
+src/
+bundle.zip
+*.ts
+*.map
+.bundleignore
+README.md
+tsconfig.*
+.editorconfig
+.eslintrc*
+.gitignore
+.nvmrc
+
 # These files are not getting ignored
-/yarn.lock
-/package.json
+yarn.lock
+package.json
+.yarnrc.yml
+.yarn/releases/
+.yarn/plugins/

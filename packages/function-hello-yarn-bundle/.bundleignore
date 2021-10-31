@@ -1,7 +1,0 @@
-/bundle.zip
-/dist/**/*.ts
-/dist/**/*.map
-/src
-/tsconfig.*
-# These files are not getting ignored
-/package.json
