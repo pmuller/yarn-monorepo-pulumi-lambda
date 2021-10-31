@@ -1,7 +1,5 @@
-/bundle.zip
-/dist/**/*.ts
-/dist/**/*.map
-/src
+/README.md
 /tsconfig.*
 # These files are not getting ignored
+/yarn.lock
 /package.json
